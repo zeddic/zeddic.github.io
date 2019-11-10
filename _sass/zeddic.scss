@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+$font-family: Roboto, Helvetica, Arial, sans-serif;
+$header-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$font-size: 13px;
+$font-weight: 400;
+$small-font-size: $font-size * 0.875;
+$line-height: 1.4;
+
+$canvas: #edf2f4;
+$background: #fff;
+$nav-background: $canvas;
+$border-color: #d4d4d4;
+$primary: #d90429;
+$primary-accent: #ef233c;
+$primary-text: #edf2f4;
+$secondary: #2b2d42;
+$secondary-accent: #8d99ae;
+$secondary-text: #edf2f4;
+
+$text-color: $secondary;
+$link-color: $primary;
+
+@mixin relative-font-size($ratio) {
+  font-size: $font-size * $ratio;
+}
+
+@import "zeddic/base";
+@import "zeddic/layout";
