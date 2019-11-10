@@ -64,6 +64,18 @@ body {
           border-right: 4px solid $primary;
         }
       }
+
+      .sub-nav-list {
+        li > a {
+          padding-left: 28px;
+        }
+      }
+
+      h2 {
+        color: $secondary;
+        margin: 0 16px 4px;
+        @include relative-font-size(1);
+      }
     }
   }
 

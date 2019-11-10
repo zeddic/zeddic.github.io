@@ -1,0 +1,9 @@
+list:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Notes
+    children:
+      - title: tmux
+        url: /notes/tmux/
