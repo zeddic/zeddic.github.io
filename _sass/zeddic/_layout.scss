@@ -6,7 +6,7 @@ body {
 }
 
 .sidebar {
-  flex: 0 0 200px;
+  flex: 0 0 240px;
   display: flex;
   flex-direction: column;
   background: $nav-background;
@@ -87,7 +87,17 @@ body {
   }
 }
 
-.page-content {
+.content {
   flex: 1 1 100%;
-  padding: 16px;
+  padding: 0 32px 32px;
+}
+
+// Page/Post layout.
+.post {
+  max-width: 740px;
+
+  .post-content {
+    @include relative-font-size(1);
+    line-height: 1.8;
+  }
 }

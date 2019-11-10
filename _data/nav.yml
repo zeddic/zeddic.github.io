@@ -6,4 +6,4 @@ list:
   - title: Notes
     children:
       - title: tmux
-        url: /notes/tmux/
+        url: /notes/tmux

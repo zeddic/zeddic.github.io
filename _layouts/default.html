@@ -5,35 +5,11 @@
   <body>
     <section class="sidebar">
       <div class="header">
-        <div class="logo">
-          <img src="https://avatars1.githubusercontent.com/u/9398560?s=460&v=4">
-        </div>
-        <p>Scott Bailey</p>
-        <p>Software Engineer</p>
+        {% include header.html %}
       </div>
 
       <nav class="nav">
-        <ol class="nav-list">
-          {% for item in site.data.nav.list %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              {% if item.url != null %}
-              <a href="{{item.url}}">{{item.title}}</a>
-              {% else %}
-                <h2>{{ item.title }}</h2>
-              {% endif %}
-
-              {% if item.children != null %}
-                <ul class="sub-nav-list">
-                  {% for subitem in item.children %}
-                    <li class="{% if subitem.url == page.url %}active{% endif %}">
-                      <a href="{{subitem.url}}">{{subitem.title}}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ol>
+        {% include nav.html %}
       </nav>
 
       <div class="footer">
@@ -42,7 +18,7 @@
       </div>
     </section>
 
-    <section class="page-content">
+    <section class="content">
       {{ content }}
     </section>
   </body>
