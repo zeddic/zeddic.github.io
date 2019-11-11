@@ -8,13 +8,13 @@
       {% endif %}
 
       {% if item.children != null %}
-        <ul class="sub-nav-list">
+        <ol class="sub-nav-list">
           {% for subitem in item.children %}
             <li class="{% if subitem.url == page.url %}active{% endif %}">
               <a href="{{subitem.url}}">{{subitem.title}}</a>
             </li>
           {% endfor %}
-        </ul>
+        </ol>
       {% endif %}
     </li>
   {% endfor %}

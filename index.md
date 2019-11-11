@@ -1,29 +1,53 @@
 ---
 layout: page
 title: Home
+hide_header: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor dolor, tincidunt at tempor quis, elementum at justo. Vestibulum eget augue tincidunt, mattis leo in, feugiat magna. Morbi quis risus a leo tempor interdum in in ligula. Ut vel molestie felis. Donec hendrerit pulvinar turpis, cursus finibus turpis fringilla ornare. Vivamus facilisis tincidunt tellus, vitae dignissim neque tempus at. Aliquam gravida urna sem, non dapibus enim consequat vitae. Cras at iaculis sem. Phasellus tempus erat nec nisl consequat hendrerit non tempor nisl. Sed feugiat purus in leo convallis consequat. Aliquam dignissim erat ut massa dapibus rutrum. Quisque rhoncus nulla eget gravida bibendum. Ut sollicitudin lacus luctus quam hendrerit molestie. Phasellus sed egestas nunc.
+# Scott Bailey
 
-```bash
-cd ~
-```
+### Staff Software Engineer
 
-```typescript
-function blah(test: string) {
-  const a = test.length;
-  return a * Math.PI;
-}
-```
+#### Tech Lead, Manager at Google
 
-## Two
+#### Orange County, Southern California Area
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor dolor, tincidunt at tempor quis, elementum at justo. Vestibulum eget augue tincidunt, mattis leo in, feugiat magna. Morbi quis risus a leo tempor interdum in in ligula. Ut vel molestie felis. Donec hendrerit pulvinar turpis, cursus finibus turpis fringilla ornare. Vivamus facilisis tincidunt tellus, vitae dignissim neque tempus at. Aliquam gravida urna sem, non dapibus enim consequat vitae. Cras at iaculis sem. Phasellus tempus erat nec nisl consequat hendrerit non tempor nisl. Sed feugiat purus in leo convallis consequat. Aliquam dignissim erat ut massa dapibus rutrum. Quisque rhoncus nulla eget gravida bibendum. Ut sollicitudin lacus luctus quam hendrerit molestie. Phasellus sed egestas nunc.
+## About me
 
-### Three
+I’m a software engineer with 13 years experience. My passion lies in the frontend space where I enjoy solving tough technical problems to solve business needs. Recently I’ve been working at Google as a Tech Lead / Manager within their internal business intelligence suite. Prior to this I’ve worked on Google Analytics, AdWords, and at Canon's American R&D branch.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor dolor, tincidunt at tempor quis, elementum at justo. Vestibulum eget augue tincidunt, mattis leo in, feugiat magna. Morbi quis risus a leo tempor interdum in in ligula. Ut vel molestie felis. Donec hendrerit pulvinar turpis, cursus finibus turpis fringilla ornare. Vivamus facilisis tincidunt tellus, vitae dignissim neque tempus at. Aliquam gravida urna sem, non dapibus enim consequat vitae. Cras at iaculis sem. Phasellus tempus erat nec nisl consequat hendrerit non tempor nisl. Sed feugiat purus in leo convallis consequat. Aliquam dignissim erat ut massa dapibus rutrum. Quisque rhoncus nulla eget gravida bibendum. Ut sollicitudin lacus luctus quam hendrerit molestie. Phasellus sed egestas nunc.
+## Contact
 
-#### Four
+[scott@zeddic.com](mailto:scott@zeddic.com)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dolor dolor, tincidunt at tempor quis, elementum at justo. Vestibulum eget augue tincidunt, mattis leo in, feugiat magna. Morbi quis risus a leo tempor interdum in in ligula. Ut vel molestie felis. Donec hendrerit pulvinar turpis, cursus finibus turpis fringilla ornare. Vivamus facilisis tincidunt tellus, vitae dignissim neque tempus at. Aliquam gravida urna sem, non dapibus enim consequat vitae. Cras at iaculis sem. Phasellus tempus erat nec nisl consequat hendrerit non tempor nisl. Sed feugiat purus in leo convallis consequat. Aliquam dignissim erat ut massa dapibus rutrum. Quisque rhoncus nulla eget gravida bibendum. Ut sollicitudin lacus luctus quam hendrerit molestie. Phasellus sed egestas nunc.
+[LinkedIn](https://www.linkedin.com/in/scott-bailey-z)
+
+## Experience
+
+- Google’s internal business intelligence suite
+- Google Analytics
+- Google Keyword Tool
+- Google AdWords
+- Canon Research and Development
+
+## Education
+
+- Bachelors in Computer Science
+
+  University of California, Irvine
+
+* Masters in Business Administration
+
+  University of Southern California
+
+## Personal projects
+
+- WebDKP
+- Board Game Geek Importer
+- Steering Behaviors
+
+## Other interests
+
+- Photography
+- Sailing
+- Video Game Development
