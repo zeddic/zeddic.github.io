@@ -1,10 +1,12 @@
 ---
 layout: page
-title: tmux Notes
+title: tmux notes
 permalink: /notes/tmux
 ---
 
-## Named sessions
+## Session
+
+### Create a new session
 
 ```bash
 tmux new -s mysession
@@ -12,6 +14,8 @@ tmux new -s mysession
 
 - `new` is an alias for `new-session`
 - `-s` is short for session-name
+
+### Attach to an existing named session
 
 ```bash
 tmux a -t mysession
@@ -21,7 +25,7 @@ tmux a -t mysession
 - `-t` is short for target-session
 - `-d` may be used to detach other clients
 
-## General purpose new/attach default session
+### Create (or attach) to a default session
 
 ```
 tmux new -Ad
@@ -32,6 +36,8 @@ tmux new -Ad
 - `d` will disconnect existing clients
 
 ## tmux commands
+
+### Common commands
 
 There are different keyboard shortcuts once tmux has started.
 
