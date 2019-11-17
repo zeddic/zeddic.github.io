@@ -4,7 +4,7 @@ title: tmux notes
 permalink: /notes/tmux
 ---
 
-## Session
+## Sessions
 
 ### Create a new session
 
