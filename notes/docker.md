@@ -7,9 +7,11 @@ permalink: /notes/docker
 ## Overview
 
 ### What is it?
-Docker is a platform/service that bundles and delivers software in `containers`. Each container is a self-contained environment for the software to run.
-
-Containers bundle the software and lib dependencies while isolating it from the host environment.
+Docker is a platform/service that bundles and delivers software in `containers`.
+Each container is a self-contained environment for the software to run. 
+Containers bundle the software and dependencies while isolating it from
+the host environment. Containers are not VMs - they share the same host OS -
+abstraction is at the app layer
 
 Examples:
   * Apache
@@ -17,7 +19,6 @@ Examples:
   * mariadb
   * your application
 
-Containers are not VMs - they share the same host OS - abstraction at the app layer
 
 ### Why is it useful?
 * Reproducable environment

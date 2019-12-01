@@ -106,7 +106,16 @@ body {
   padding: 16px 32px;
 
   ul, ol {
-    margin-left: 20px;
+    margin-left: 24px;
+  }
+  
+  p, ul, ol {
+    margin-bottom: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   .post-content {
