@@ -44,6 +44,10 @@ If using WSL (Windows Subsystem for Linux) to run Ubuntu on Windows, there are s
   export DOCKER_HOST=tcp://localhost:2375
   ```
 5. Verify it is running with `docker info`
+6. Update how WSL mounts your local drives due to a Docker Volume/WSL incompatibility. See [this article](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly) for details. Basically you need to configure WSL to mount drives as /c/ instead of /mnt/c/
+7. Share your drive within Docker for Windows settings. Note: If you don't have a password for your windows account, you'll need to create a new User for Docker and add it to the Admin group for windows. See [this discussion](https://forums.docker.com/t/how-to-share-windows-drives-with-a-user-without-password/22933/3)
+
+Note: This only applies to WSL1. WSL2 (coming 2020) is supposed to support running docker directly
 
 ## Dockerfile
 Dockerfiles are configuration files that allow you setup your conatiner. Docker has a repository of *images* for different applications. Dockerfiles let you specify a series of steps to perform on one of these images, allowing you to extend it (aka layer) and thus create a *new image*. For example, you might want to take an Ubuntu image add add a series of bash commands to `apt-get install` some additional packages. 
@@ -98,6 +102,22 @@ services:
 
 This example creates an image for `web` by building from the Dockerfile in the current directory and exposes port 5000 on the container. It also will start up a redis image using the offical repo image.
 
+```shell
+# Starts all containers (in detached mode)
+docker-compose up -d
+
+docker-compose down
+
+# Shuts down all containers. -v removes all anonymous volumes
+docker-compose rm -v
+
+# Recreate anonymous volumes instead of using those from last run
+docker-compose up -V
+
+# Force recration of containers
+docker-compose up --force-recreate
+```
+
 ## Gists
 
 ```shell
@@ -112,6 +132,9 @@ docker container run -d nginx
 
 # Shutdown a container
 docker container rm <tag> -f
+
+# Open bash in one of the containers
+docker-compose exec <containername> bash
 ```
 
 ## Useful links
