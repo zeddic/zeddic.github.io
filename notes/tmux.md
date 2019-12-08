@@ -25,15 +25,14 @@ tmux a -t mysession
 - `-t` is short for target-session
 - `-d` may be used to detach other clients
 
-### Create (or attach) to a default session
+### Create (or attach) to a session
 
 ```
-tmux new -Ad
+tmux new -AD -s test
 ```
-
 - Creates a new session with a default name
 - `-A` attempts to attach to an existing one if it exists
-- `d` will disconnect existing clients
+- `-D` will disconnect existing clients
 
 ## tmux commands
 
