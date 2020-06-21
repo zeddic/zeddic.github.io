@@ -32,7 +32,14 @@ Examples:
 ### Linux
 See [install instructions](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-### Windows WSL
+### Windows WSL2
+1. Download [Docker for Windows](https://docs.docker.com/docker-for-windows/)
+1. In Docker for Windows settings enable WSL 2 based engine and `Enable integration with my default WSL distro`
+   ![docker WSL2 setting](/assets/notes/docker-wsl2.png)
+   ![docker WSL2 distro setting](/assets/notes/docker-wsl2-2.png)
+1. Verify it is running with `docker info`. Note, you may need to open a new WSL terminal if you started Docker with an existing terminal open.
+
+### Windows WSL1
 If using WSL (Windows Subsystem for Linux) to run Ubuntu on Windows, there are some more steps to take. The Docker daemon can not run within the WSL environment. Instead, we need to install Docker's Windows application, expose its daemon on localhost, then configure the Docker CLI in the WSL instance to connect to the daemon. 
 
 1. Download [Docker for Windows](https://docs.docker.com/docker-for-windows/)
