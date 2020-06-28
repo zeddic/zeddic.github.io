@@ -1,9 +1,0 @@
-list:
-  - title: Home
-    url: /
-  - title: Notes
-    children:
-      - title: tmux
-        url: /notes/tmux
-      - title: docker
-        url: /notes/docker
